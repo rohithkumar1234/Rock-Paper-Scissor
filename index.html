@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <section class="section">
+        <div class="main">
+            <H2>pick any one</H2>
+                <button onclick="
+                checker('rock')
+                " class="player-button js-rock-button"> <img src="./images/rock-emoji.png" class="player-moves" alt="rock image"></button>
+                <button
+                onclick="
+                checker('paper')
+                " class="player-button js-button"><img src="./images/paper-emoji.png" alt="paper image" class="player-moves"></button>
+                <button
+                onclick="
+               checker('scissors')
+               
+               " class="player-button js-button"><img src="./images/scissors-emoji.png" alt="scissors image" class="player-moves" ></button>
+    
+               <p class="result total-points" ></p>
+                <p class="para tracker"> </p>
+                <p class="moves score"></p>
+                <button onclick="
+                remove()"
+                 class="reset-button">Reset Score</button>
+
+        </div>
+
+    </section>
+</body>
+</html>

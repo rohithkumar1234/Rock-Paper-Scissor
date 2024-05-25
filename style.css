@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(25, 25, 25) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.section {
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 50px;
+}
+.main{
+  margin: 8px;
+
+}
+.player-moves {
+    height: 100px;
+}
+.player-button {
+    background-color: transparent;
+    border: 2.5px solid white;
+    width: 150px;
+    height: 150px;
+    margin: 30px 20px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.total-points {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.score {
+margin: 60px;
+}
+.reset-button {
+border: none;
+padding: 10px;
+font-size: 20px;
+border-radius: 20px;
+}
